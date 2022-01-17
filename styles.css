@@ -11,10 +11,11 @@ body {
     width: 100%;
     height: auto;
     position: fixed;
+    min-height: 100vh;
 }
 nav {
     background-color: rgb(236, 236, 236);
-    padding: 20px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -38,23 +39,23 @@ li a {
 }
 
 a:hover {
-    color: white;
-    background-color: rgb(97, 97, 97);
+    font-size: 25px;
 }
 
 .main-title {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Chivo',sans-serif;
     color: white;
-    padding-top: 210px;
-    font-size: 3em;
+    padding-top: 200px;
+    font-size: 3.1em;
     text-transform: uppercase;
     text-shadow: whitesmoke;
 }
 
 footer {
-    bottom:0;
-    width:100%;
-    height:60px;   
-    background:#6cf;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
